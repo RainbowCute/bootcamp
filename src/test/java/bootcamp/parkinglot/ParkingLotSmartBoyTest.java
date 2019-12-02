@@ -3,6 +3,7 @@ package bootcamp.parkinglot;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class ParkingLotSmartBoyTest {
     @Test
@@ -56,5 +57,18 @@ public class ParkingLotSmartBoyTest {
         Token token = smartParkingBoy.park(new Car());
 
         assertEquals(1, token.getLotId().intValue());
+    }
+
+    @Test
+    public void should_return_a_car_when_take_a_car_by_token() {
+        Car car = new Car("京A12345");
+        ParkingLot firstParkingLot = new ParkingLot(2);
+        SmartParkingBoy smartParkingBoy = new SmartParkingBoy();
+        smartParkingBoy.addParkingLot(1, firstParkingLot);
+
+        Token token = smartParkingBoy.park(car);
+        Car carByTake = smartParkingBoy.take(token);
+
+        assertEquals(car, carByTake);
     }
 }

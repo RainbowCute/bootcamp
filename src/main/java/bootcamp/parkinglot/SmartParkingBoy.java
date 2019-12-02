@@ -20,8 +20,8 @@ public class SmartParkingBoy {
         lotIdParkingLotMap.put(lotId, parkingLot);
     }
 
-    public void take(Token token) {
-        Optional.ofNullable(token)
+    public Car take(Token token) {
+        return Optional.ofNullable(token)
                 .map(token1 -> lotIdParkingLotMap.get(token1.getLotId()).take(token1))
                 .orElseThrow(TakingFailException::new);
     }

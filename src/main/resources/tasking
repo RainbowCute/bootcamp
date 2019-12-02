@@ -33,4 +33,12 @@ given first parking lot free space is one,second parking lot free space is two
 when park a car after take a car from first parking lot
 then return a ticket with first parking lot
 
+given a car with park in parking lot
+when take a car by token is valid
+then return a car
+
+given a car with park in parking lot
+when take a car by token is invalid
+then give a message "ticket is invalid"
+
 
