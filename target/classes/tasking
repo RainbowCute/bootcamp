@@ -1,0 +1,36 @@
+
+given app is booted and given the size of the parking lots
+when parking boy is assigned a job
+then create multiple parking lots with the sizes given
+
+given the parking lots were created
+when a car arrives and there is space in one of the parking lot
+then create a ticket for the car in the last non-full parking lot and register the car to the parking lot
+
+given the parking lots were created
+when a car arrives and there is no space
+then reject and throw message
+
+given some  cars were parked
+when owner arrives and his/her ticket is verified
+then return the car
+
+given some  cars were parked
+when owner arrives and his/her ticket is invalid
+then reject and throw message
+
+
+
+given first parking lot free space is one,second parking lot free space is two
+when park a car
+then return a ticket with second parking lot
+
+given first parking lot free space is one,second parking lot free space is one
+when park a car
+then return a ticket with first parking lot
+
+given first parking lot free space is one,second parking lot free space is two
+when park a car after take a car from first parking lot
+then return a ticket with first parking lot
+
+
