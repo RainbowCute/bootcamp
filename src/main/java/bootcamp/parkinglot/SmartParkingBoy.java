@@ -22,7 +22,13 @@ public class SmartParkingBoy {
 
     public Car take(Token token) {
         return Optional.ofNullable(token)
-                .map(token1 -> lotIdParkingLotMap.get(token1.getLotId()).take(token1))
-                .orElseThrow(TakingFailException::new);
+                .map(token1 -> {
+                    ParkingLot parkingLot = lotIdParkingLotMap.get(token1.getLotId());
+                    if(Objects.isNull(parkingLot)){
+                        throw new TakingFailException("not have parking lot");
+                    }
+                    return parkingLot.take(token);
+                })
+                .orElseThrow(() -> new TakingFailException("ticket is invalid"));
     }
 }

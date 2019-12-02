@@ -21,7 +21,7 @@ public class ParkingLot {
 
     public Car take(Token token) {
         if (Objects.isNull(token)) {
-            throw new TakingFailException();
+            throw new TakingFailException("ticket is invalid");
         }
         Car car = tokenCarMap.get(token);
         if (Objects.nonNull(car)) {
@@ -29,7 +29,7 @@ public class ParkingLot {
             ++freeSpace;
             return car;
         }
-        throw new TakingFailException();
+        throw new TakingFailException("ticket is invalid");
     }
 
     public Token park(Integer lotId, Car car) {

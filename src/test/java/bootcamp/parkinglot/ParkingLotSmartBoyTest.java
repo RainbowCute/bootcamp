@@ -3,7 +3,6 @@ package bootcamp.parkinglot;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 
 public class ParkingLotSmartBoyTest {
     @Test
@@ -60,7 +59,7 @@ public class ParkingLotSmartBoyTest {
     }
 
     @Test
-    public void should_return_a_car_when_take_a_car_by_token() {
+    public void should_return_a_car_when_take_a_car_by_valid_token() {
         Car car = new Car("京A12345");
         ParkingLot firstParkingLot = new ParkingLot(2);
         SmartParkingBoy smartParkingBoy = new SmartParkingBoy();
@@ -70,5 +69,22 @@ public class ParkingLotSmartBoyTest {
         Car carByTake = smartParkingBoy.take(token);
 
         assertEquals(car, carByTake);
+    }
+
+    @Test(expected = TakingFailException.class)
+    public void should_return_a_message_when_tack_a_car_by_invalid_token() {
+        ParkingLot firstParkingLot = new ParkingLot(2);
+        SmartParkingBoy smartParkingBoy = new SmartParkingBoy();
+        smartParkingBoy.addParkingLot(1, firstParkingLot);
+
+        smartParkingBoy.take(new Token(1));
+    }
+
+    @Test(expected = TakingFailException.class)
+    public void should_return_a_message_when_smart_boy_not_have_parking_lot() {
+        SmartParkingBoy smartParkingBoy = new SmartParkingBoy();
+        smartParkingBoy.addParkingLot(0, new ParkingLot(2));
+
+        smartParkingBoy.take(new Token(1));
     }
 }
