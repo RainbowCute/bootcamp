@@ -41,4 +41,24 @@ given a car with park in parking lot
 when take a car by token is invalid
 then give a message "ticket is invalid"
 
+given a car with park in parking lot
+when take a car by token is null
+then give a message "ticket is invalid"
+
+
+given first parking lot free space rate is 50%, second parking lot free space rate is 100%
+when park a car
+then give a ticket with second parking lot
+
+given first parking lot free space rate is 100%, second parking lot free space rate is 100%
+when park a car
+then give a ticket with first parking lot
+
+given first parking lot free space rate is 50%, second parking lot free space rate is 100%
+when take a car before park a car from first parking lot
+then give a ticket with first parking lot
+
+given parking lot free space rate is 0
+when park a car
+then park fail
 
