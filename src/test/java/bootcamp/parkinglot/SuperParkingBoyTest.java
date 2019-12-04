@@ -1,5 +1,7 @@
 package bootcamp.parkinglot;
 
+import bootcamp.parkinglot.boy.SuperParkingBoy;
+import bootcamp.parkinglot.exception.TakingFailException;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -33,8 +35,6 @@ public class SuperParkingBoyTest {
 
         assertNotNull(token);
         assertEquals(1, token.getLotId().intValue());
-
-
     }
 
     @Test
@@ -49,5 +49,37 @@ public class SuperParkingBoyTest {
 
         assertNotNull(secondToken);
         assertEquals(1, secondToken.getLotId().intValue());
+    }
+
+    @Test(expected = TakingFailException.class)
+    public void should_throw_exception_when_tack_a_car_by_invalid_token() {
+        ParkingLot firstParkingLot = new ParkingLot(2);
+        SuperParkingBoy superParkingBoy = new SuperParkingBoy(Arrays.asList(firstParkingLot));
+
+        superParkingBoy.take(new Token());
+    }
+
+    @Test(expected = TakingFailException.class)
+    public void should_throw_exception_when_smart_boy_not_have_parking_lot() {
+        SuperParkingBoy superParkingBoy = new SuperParkingBoy(null);
+
+        superParkingBoy.take(new Token());
+    }
+
+    @Test(expected = TakingFailException.class)
+    public void should_throw_exception_when_take_a_car_by_null_token() {
+        SuperParkingBoy superParkingBoy = new SuperParkingBoy(Arrays.asList(new ParkingLot(2)));
+
+        superParkingBoy.take(null);
+    }
+
+    @Test(expected = TakingFailException.class)
+    public void should_throw_exception_when_take_a_car_by_multi_token() {
+        SuperParkingBoy superParkingBoy = new SuperParkingBoy(Arrays.asList(new ParkingLot(2)));
+        Token token = new Token();
+        Car car = superParkingBoy.take(token);
+        superParkingBoy.take(token);
+
+        assertNotNull(car);
     }
 }

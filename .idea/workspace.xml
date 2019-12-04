@@ -3,18 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="48a7de49-46b9-4cb6-810e-4c2550a9dbca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingBoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/BaseBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/BaseBoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/ParkingBoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingFailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/exception/ParkingFailException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLotFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLotFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/SmartParkingBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/SmartParkingBoy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotBoyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotBoyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingBoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingBoy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLotFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/SmartParkingBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/SmartParkingBoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/SuperParkingBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/SuperParkingBoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/TakingFailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/exception/TakingFailException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotBoyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingBoyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotSmartBoyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SmartParkingBoyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SuperParkingBoyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SuperParkingBoyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingBoy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingFailException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLotFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLotFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/SmartParkingBoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/SmartParkingBoy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotBoyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotBoyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLotFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/SmartParkingBoy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/TakingFailException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotBoyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotSmartBoyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/SuperParkingBoyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/SuperParkingBoyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +37,129 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SmartParkingBoyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SuperParkingBoyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/Token.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1276#1277#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/ParkingBoy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingBoyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/SmartParkingBoy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,8 +169,34 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SmartParkingBoy</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>SuperParkingBoy</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/exception/TakingFailException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/BaseBoy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLotFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/Token.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotBoyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingBoyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SuperParkingBoyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/SmartParkingBoy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SmartParkingBoyTest.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -53,6 +214,130 @@
   </component>
   <component name="ProjectId" id="1Tpi70riuBO5ZvWSVWmq7MGsK7j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="length" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="parkinglot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="parkinglot" type="462c0819:PsiDirectoryNode" />
+              <item name="boy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="length" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="parkinglot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -76,15 +361,15 @@
       <recent name="bootcamp.parkinglot" />
       <recent name="bootcamp.length" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bootcamp.parkinglot" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="bootcamp.parkinglot" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,8 +384,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SuperParkingBoyTest">
-    <configuration name="ParkingLotBoyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.bootcamp.parkinglot in bootcamp">
+    <configuration name="ParkingBoyTest.should_park_fail_when_capacity_is_full" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
@@ -109,29 +394,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotBoyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingLotBoyTest.should_take_success_when_token_is_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bootcamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bootcamp.parkinglot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotBoyTest" />
-      <option name="METHOD_NAME" value="should_take_success_when_token_is_valid" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingBoyTest" />
+      <option name="METHOD_NAME" value="should_park_fail_when_capacity_is_full" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLotSmartBoyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmartParkingBoyTest.should_throw_exception_when_take_a_car_by_multi_token" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
@@ -140,23 +410,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotSmartBoyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingLotSmartBoyTest.should_return_a_ticket_with_second_parking_lot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bootcamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bootcamp.parkinglot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotSmartBoyTest" />
-      <option name="METHOD_NAME" value="should_return_a_ticket_with_second_parking_lot" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.SmartParkingBoyTest" />
+      <option name="METHOD_NAME" value="should_throw_exception_when_take_a_car_by_multi_token" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,7 +421,7 @@
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootcamp.parkinglot.*" />
+          <option name="PATTERN" value="bootcamp.parkinglot.boy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +432,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuperParkingBoyTest.should_return_a_ticket_with_first_parking_lot_when_take_a_car_before_park_a_car_with_same_free_space_rete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.parkinglot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.SuperParkingBoyTest" />
+      <option name="METHOD_NAME" value="should_return_a_ticket_with_first_parking_lot_when_take_a_car_before_park_a_car_with_same_free_space_rete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bootcamp.parkinglot in bootcamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.parkinglot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.bootcamp.parkinglot in bootcamp" />
+        <item itemvalue="JUnit.SmartParkingBoyTest.should_throw_exception_when_take_a_car_by_multi_token" />
+        <item itemvalue="JUnit.ParkingBoyTest.should_park_fail_when_capacity_is_full" />
+        <item itemvalue="JUnit.SuperParkingBoyTest.should_return_a_ticket_with_first_parking_lot_when_take_a_car_before_park_a_car_with_same_free_space_rete" />
         <item itemvalue="JUnit.SuperParkingBoyTest" />
-        <item itemvalue="JUnit.ParkingLotSmartBoyTest" />
-        <item itemvalue="JUnit.ParkingLotSmartBoyTest.should_return_a_ticket_with_second_parking_lot" />
-        <item itemvalue="JUnit.ParkingLotBoyTest" />
-        <item itemvalue="JUnit.ParkingLotBoyTest.should_take_success_when_token_is_valid" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +491,60 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SuperParkingBoyTest_should_return_a_ticket_with_first_parking_lot_when_take_a_car_before_park_a_car_with_same_free_space_rete - 2019.12.04 at 20h 31m 43s.xml">
+      <configuration name="SuperParkingBoyTest.should_return_a_ticket_with_first_parking_lot_when_take_a_car_before_park_a_car_with_same_free_space_rete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="bootcamp_parkinglot_in_bootcamp - 2019.12.04 at 20h 33m 42s.xml">
+      <configuration name="bootcamp.parkinglot in bootcamp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingBoyTest_should_park_fail_when_capacity_is_full - 2019.12.04 at 20h 43m 51s.xml">
+      <configuration name="ParkingBoyTest.should_park_fail_when_capacity_is_full" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmartParkingBoyTest_should_throw_exception_when_take_a_car_by_multi_token - 2019.12.04 at 20h 49m 55s.xml">
+      <configuration name="SmartParkingBoyTest.should_throw_exception_when_take_a_car_by_multi_token" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4437000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14331551" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19037433" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -214,10 +553,191 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1534">
+          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/length/LengthComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tasking">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/exception/ParkingFailException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/exception/TakingFailException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/BaseBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/SuperParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLotFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/ParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingBoyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SuperParkingBoyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/boy/SmartParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/SmartParkingBoyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

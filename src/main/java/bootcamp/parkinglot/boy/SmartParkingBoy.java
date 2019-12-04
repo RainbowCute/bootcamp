@@ -1,4 +1,7 @@
-package bootcamp.parkinglot;
+package bootcamp.parkinglot.boy;
+
+import bootcamp.parkinglot.ParkingLot;
+import bootcamp.parkinglot.boy.BaseBoy;
 
 import java.util.Comparator;
 import java.util.List;

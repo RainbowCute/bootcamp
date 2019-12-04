@@ -1,5 +1,8 @@
 package bootcamp.parkinglot;
 
+import bootcamp.parkinglot.exception.ParkingFailException;
+import bootcamp.parkinglot.exception.TakingFailException;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -17,7 +20,7 @@ public class ParkingLot {
 
     public Car take(Token token) {
         if (Objects.isNull(token)) {
-            throw new TakingFailException("ticket is invalid");
+            throw new TakingFailException();
         }
         Car car = tokenCarMap.get(token);
         if (Objects.nonNull(car)) {
@@ -25,7 +28,7 @@ public class ParkingLot {
             ++freeSpace;
             return car;
         }
-        throw new TakingFailException("ticket is invalid");
+        throw new TakingFailException();
     }
 
     public Token park(Car car) {

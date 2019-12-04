@@ -1,4 +1,10 @@
-package bootcamp.parkinglot;
+package bootcamp.parkinglot.boy;
+
+import bootcamp.parkinglot.Car;
+import bootcamp.parkinglot.exception.ParkingFailException;
+import bootcamp.parkinglot.ParkingLot;
+import bootcamp.parkinglot.exception.TakingFailException;
+import bootcamp.parkinglot.Token;
 
 import java.util.*;
 
@@ -28,13 +34,13 @@ public abstract class BaseBoy {
 
     public Car take(Token token) {
         return Optional.ofNullable(token)
-                .map(token1 -> {
-                    ParkingLot parkingLot = lotIdParkingLotMap.get(token1.getLotId());
+                .map(tokenByTake -> {
+                    ParkingLot parkingLot = lotIdParkingLotMap.get(tokenByTake.getLotId());
                     if (Objects.isNull(parkingLot)) {
-                        throw new TakingFailException("not have parking lot");
+                        throw new TakingFailException();
                     }
-                    return parkingLot.take(token);
+                    return parkingLot.take(tokenByTake);
                 })
-                .orElseThrow(() -> new TakingFailException("ticket is invalid"));
+                .orElseThrow(() -> new TakingFailException());
     }
 }

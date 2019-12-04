@@ -1,5 +1,7 @@
 package bootcamp.parkinglot;
 
+import bootcamp.parkinglot.exception.ParkingFailException;
+import bootcamp.parkinglot.exception.TakingFailException;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
