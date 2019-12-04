@@ -5,15 +5,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-public class SmartParkingBoy extends BaseBoy {
+public class SuperParkingBoy extends BaseBoy {
 
-    public SmartParkingBoy(List<ParkingLot> parkingLots) {
+    public SuperParkingBoy(List<ParkingLot> parkingLots) {
         super(parkingLots);
     }
 
     @Override
     protected Optional<Map.Entry<Integer, ParkingLot>> getParkingLot() {
         return lotIdParkingLotMap.entrySet().stream()
-                .max(Comparator.comparingInt(o -> o.getValue().getFreeSpace()));
+                .max(Comparator.comparingDouble(o -> o.getValue().getFreeSpaceRate()));
     }
 }

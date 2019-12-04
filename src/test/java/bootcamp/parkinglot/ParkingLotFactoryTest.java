@@ -2,9 +2,10 @@ package bootcamp.parkinglot;
 
 import org.junit.Test;
 
-import java.util.Map;
+import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class ParkingLotFactoryTest {
 
@@ -13,8 +14,8 @@ public class ParkingLotFactoryTest {
 
     @Test
     public void should_return_parking_lots_given_sizes() {
-        Map<Integer, ParkingLot> lotIdParkingLotMap = ParkingLotFactory.create(PARKING_LOT_NUM, PARKING_LOT_CAPACITY);
-        assertNotNull(lotIdParkingLotMap);
-        assertEquals(2, lotIdParkingLotMap.size());
+        List<ParkingLot> parkingLots = ParkingLotFactory.create(PARKING_LOT_NUM, PARKING_LOT_CAPACITY);
+        assertNotNull(parkingLots);
+        assertEquals(2, parkingLots.size());
     }
 }

@@ -15,10 +15,6 @@ public class ParkingLot {
         this.freeSpace = this.capacity;
     }
 
-    public Token park(Car car) {
-        return park(0, car);
-    }
-
     public Car take(Token token) {
         if (Objects.isNull(token)) {
             throw new TakingFailException("ticket is invalid");
@@ -32,7 +28,11 @@ public class ParkingLot {
         throw new TakingFailException("ticket is invalid");
     }
 
-    public Token park(Integer lotId, Car car) {
+    public Token park(Car car) {
+        return park(0, car);
+    }
+
+    public Token park(int lotId, Car car) {
         if (Objects.isNull(car) || freeSpace == 0) {
             throw new ParkingFailException();
         }
@@ -42,7 +42,18 @@ public class ParkingLot {
         return token;
     }
 
+    public boolean isFull() {
+        return freeSpace == 0;
+    }
+
     public Integer getFreeSpace() {
         return freeSpace;
+    }
+
+    public Double getFreeSpaceRate() {
+        if (capacity == 0) {
+            return 0.0;
+        }
+        return (freeSpace + 0.0) / capacity;
     }
 }

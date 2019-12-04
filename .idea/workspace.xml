@@ -3,11 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="48a7de49-46b9-4cb6-810e-4c2550a9dbca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingBoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLotFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/ParkingLotFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/SmartParkingBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/parkinglot/SmartParkingBoy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tasking" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tasking" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotSmartBoyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotSmartBoyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasking" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasking" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotSmartBoyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotSmartBoyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotBoyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotBoyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bootcamp/parkinglot/ParkingLotFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingBoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingBoy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLotFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/ParkingLotFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/SmartParkingBoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootcamp/parkinglot/SmartParkingBoy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotBoyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotBoyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bootcamp/parkinglot/ParkingLotFactoryTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +63,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -91,7 +99,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.bootcamp in bootcamp">
+  <component name="RunManager" selected="JUnit.SuperParkingBoyTest">
+    <configuration name="ParkingLotBoyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.parkinglot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotBoyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotBoyTest.should_take_success_when_token_is_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.parkinglot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotBoyTest" />
+      <option name="METHOD_NAME" value="should_take_success_when_token_is_valid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParkingLotSmartBoyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
@@ -107,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLotSmartBoyTest.should_return_a_message_when_take_a_car_by_null_token" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingLotSmartBoyTest.should_return_a_ticket_with_second_parking_lot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +156,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
       <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotSmartBoyTest" />
-      <option name="METHOD_NAME" value="should_return_a_message_when_take_a_car_by_null_token" />
+      <option name="METHOD_NAME" value="should_return_a_ticket_with_second_parking_lot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLotSmartBoyTest.should_throw_exception_when_parking_lot_is_full" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SuperParkingBoyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
@@ -132,50 +171,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotSmartBoyTest" />
-      <option name="METHOD_NAME" value="should_throw_exception_when_parking_lot_is_full" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingLotSmartBoyTest.should_throw_exception_when_smart_boy_not_have_parking_lot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bootcamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bootcamp.parkinglot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bootcamp.parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.ParkingLotSmartBoyTest" />
-      <option name="METHOD_NAME" value="should_throw_exception_when_smart_boy_not_have_parking_lot" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bootcamp in bootcamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bootcamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bootcamp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bootcamp" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.parkinglot.SuperParkingBoyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.bootcamp in bootcamp" />
+        <item itemvalue="JUnit.SuperParkingBoyTest" />
         <item itemvalue="JUnit.ParkingLotSmartBoyTest" />
-        <item itemvalue="JUnit.ParkingLotSmartBoyTest.should_throw_exception_when_smart_boy_not_have_parking_lot" />
-        <item itemvalue="JUnit.ParkingLotSmartBoyTest.should_throw_exception_when_parking_lot_is_full" />
-        <item itemvalue="JUnit.ParkingLotSmartBoyTest.should_return_a_message_when_take_a_car_by_null_token" />
+        <item itemvalue="JUnit.ParkingLotSmartBoyTest.should_return_a_ticket_with_second_parking_lot" />
+        <item itemvalue="JUnit.ParkingLotBoyTest" />
+        <item itemvalue="JUnit.ParkingLotBoyTest.should_take_success_when_token_is_valid" />
       </list>
     </recent_temporary>
   </component>
