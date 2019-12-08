@@ -8,11 +8,11 @@ import bootcamp.parkinglot.Token;
 
 import java.util.*;
 
-public abstract class BaseBoy {
+public abstract class BaseWorker {
 
     protected Map<Integer, ParkingLot> lotIdParkingLotMap = new HashMap<>();
 
-    public BaseBoy(List<ParkingLot> parkingLots) {
+    public BaseWorker(List<ParkingLot> parkingLots) {
         if (Objects.nonNull(parkingLots)) {
             for (int i = 0; i < parkingLots.size(); i++) {
                 lotIdParkingLotMap.put(i + 1, parkingLots.get(i));
@@ -20,7 +20,7 @@ public abstract class BaseBoy {
         }
     }
 
-    protected abstract Optional<Map.Entry<Integer, ParkingLot>> getParkingLot();
+    public abstract Optional<Map.Entry<Integer, ParkingLot>> getParkingLot();
 
     public Token park(Car car) {
         Optional<Map.Entry<Integer, ParkingLot>> entry = getParkingLot();
@@ -43,4 +43,9 @@ public abstract class BaseBoy {
                 })
                 .orElseThrow(() -> new TakingFailException());
     }
+
+    public boolean isFull(){
+        return lotIdParkingLotMap.values().stream().allMatch(ParkingLot::isFull);
+    }
+
 }

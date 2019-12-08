@@ -62,3 +62,23 @@ given parking lot free space rate is 0
 when park a car
 then park fail
 
+
+given a parking boy has free space and a smart parking boy has free space
+when park a car
+then get a ticket with parking boy
+
+given a parking boy has not free space and a smart parking boy has free space
+when park a car
+then get a ticket with smart parking boy
+
+given a parking boy has free space and a smart parking boy has not free space and a super parking boy has free space
+when park a car
+then get a ticket with parking boy
+
+given all parking boy have not free space and manager has free space
+when park a car
+then get a ticket with parking manager
+
+given all parking lots are full
+when park a car
+then parking fail
